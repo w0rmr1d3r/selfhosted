@@ -39,7 +39,7 @@ jobs:
 
   codeql:
     name: Analyze
-    needs: gate
+    needs: sync-tags
     runs-on: ubuntu-latest
     permissions:
       security-events: write
@@ -70,7 +70,7 @@ jobs:
 
   zizmor:
     name: zizmor
-    needs: gate
+    needs: sync-tags
     runs-on: ubuntu-latest
     permissions:
       security-events: write
