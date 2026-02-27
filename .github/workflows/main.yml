@@ -2,9 +2,18 @@ name: Main
 
 on:
   pull_request:
+    branches:
+      - main
 
 jobs:
+  gate:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Gate passed"
+
   sync-tags:
+    needs: gate
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -30,7 +39,7 @@ jobs:
 
   codeql:
     name: Analyze
-    needs: sync-tags
+    needs: gate
     runs-on: ubuntu-latest
     permissions:
       security-events: write
@@ -61,7 +70,7 @@ jobs:
 
   zizmor:
     name: zizmor
-    needs: sync-tags
+    needs: gate
     runs-on: ubuntu-latest
     permissions:
       security-events: write
