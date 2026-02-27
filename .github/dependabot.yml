@@ -5,8 +5,6 @@ updates:
     schedule:
       interval: "monthly"
     open-pull-requests-limit: 10
-    cooldown:
-      default-days: 7
     assignees:
       - "w0rmr1d3r"
 
@@ -15,7 +13,5 @@ updates:
     schedule:
       interval: "monthly"
     open-pull-requests-limit: 10
-    cooldown:
-      default-days: 7
     assignees:
       - "w0rmr1d3r"
