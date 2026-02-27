@@ -1,0 +1,8 @@
+services:
+  web:
+    container_name: web
+    image: nginx:${WEB_TAG}
+
+  db:
+    container_name: db
+    image: postgres:${DB_TAG}
