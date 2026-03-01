@@ -10,6 +10,7 @@ updates:
     assignees:
       - "w0rmr1d3r"
 
+
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
