@@ -1,0 +1,52 @@
+services:
+  sonarr:
+    image: ghcr.io/linuxserver/sonarr:4.0.16.2944-ls303@sha256:37be832b78548e3f55f69c45b50e3b14d18df1b6def2a4994258217e67efb1a1
+    container_name: sonarr
+
+  radarr:
+    image: ghcr.io/linuxserver/radarr:6.0.4.10291-ls293@sha256:6d3e68474ea146f995af98d3fb2cb1a14e2e4457ddaf035aa5426889e2f9249c
+    container_name: radarr
+
+  qbittorrent:
+    image: ghcr.io/linuxserver/qbittorrent:5.1.4-r2-ls443@sha256:3ee43a4d08ce4a0108e4c8150f570544a8c4a4a11e2ca95b86d46006547f80d5
+    container_name: qbittorrent
+
+  flaresolverr:
+    image: ghcr.io/flaresolverr/flaresolverr:v3.4.6@sha256:524715c5b5d045ff77ae409ffa1d6c0fcf9f23a2e5e957eb44da4f2fc53e6876
+    container_name: flaresolverr
+
+  prowlarr:
+    image: ghcr.io/linuxserver/prowlarr:2.3.0.5236-ls137@sha256:e74a1e093dcc223d671d4b7061e2b4946f1989a4d3059654ff4e623b731c9134
+    container_name: prowlarr
+
+  bazarr:
+    image: ghcr.io/linuxserver/bazarr:v1.5.6-ls339@sha256:b0bc617664dbca25845ac3b1bb6411b145b6a44a6d173071c9d2f426524fdd9f
+    container_name: bazarr
+
+  heimdall:
+    image: ghcr.io/linuxserver/heimdall:v2.7.6-ls338@sha256:9b09fefabe2daf6f3d2363ae94baae18283408f3eff60715995553342cb9ecac
+    container_name: heimdall
+
+  plex:
+    image: ghcr.io/linuxserver/plex:1.43.0.10492-121068a07-ls294@sha256:55c2def2eb662c2ce1a13e569278aeb87b2509ac7c57711d0da0a5d6d1607ad8
+    container_name: plex
+
+  seerr:
+    image: ghcr.io/seerr-team/seerr:v3.0.1@sha256:b35ba0461c4a1033d117ac1e5968fd4cbe777899e4cbfbdeaf3d10a42a0eb7e9
+    container_name: seerr
+
+  duckdns:
+    image: ghcr.io/linuxserver/duckdns:33acdda4-ls74@sha256:780ac95fe11f54836d2287829b52759d83a210486d0a5df9fa2215a5005caf5f
+    container_name: duckdns
+
+  wireguard:
+    image: ghcr.io/linuxserver/wireguard:1.0.20250521-r1-ls103@sha256:d3bba525c1e2b756d36d5ca778c1c84932c3d1c34ba3fbf6d4f5d43a88c2c50f
+    container_name: wireguard
+
+  jellyfin:
+    image: ghcr.io/jellyfin/jellyfin:2026022305@sha256:53d5bd067c4cacdd52bb0b267fe620fce3fbb2c9f4b75e070a4749e08f60d9a1
+    container_name: jellyfin
+
+  cleanuparr:
+    image: ghcr.io/cleanuparr/cleanuparr:2.6.3@sha256:ab6620cf0320fd0544b677d420942a7b1ef7fedc18c9577441a21ee34bf188c9
+    container_name: cleanuparr

@@ -1,0 +1,52 @@
+services:
+  sonarr:
+    image: ghcr.io/linuxserver/sonarr:4.0.16.2944-ls303
+    container_name: sonarr
+
+  radarr:
+    image: ghcr.io/linuxserver/radarr:6.0.4.10291-ls293
+    container_name: radarr
+
+  qbittorrent:
+    image: ghcr.io/linuxserver/qbittorrent:5.1.4-r2-ls443
+    container_name: qbittorrent
+
+  flaresolverr:
+    image: ghcr.io/flaresolverr/flaresolverr:v3.4.6
+    container_name: flaresolverr
+
+  prowlarr:
+    image: ghcr.io/linuxserver/prowlarr:2.3.0.5236-ls137
+    container_name: prowlarr
+
+  bazarr:
+    image: ghcr.io/linuxserver/bazarr:v1.5.6-ls339
+    container_name: bazarr
+
+  heimdall:
+    image: ghcr.io/linuxserver/heimdall:v2.7.6-ls338
+    container_name: heimdall
+
+  plex:
+    image: ghcr.io/linuxserver/plex:1.43.0.10492-121068a07-ls294
+    container_name: plex
+
+  seerr:
+    image: ghcr.io/seerr-team/seerr:v3.0.1
+    container_name: seerr
+
+  duckdns:
+    image: ghcr.io/linuxserver/duckdns:33acdda4-ls74
+    container_name: duckdns
+
+  wireguard:
+    image: ghcr.io/linuxserver/wireguard:1.0.20250521-r1-ls103
+    container_name: wireguard
+
+  jellyfin:
+    image: ghcr.io/jellyfin/jellyfin:2026022305
+    container_name: jellyfin
+
+  cleanuparr:
+    image: ghcr.io/cleanuparr/cleanuparr:2.6.3
+    container_name: cleanuparr
