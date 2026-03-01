@@ -36,7 +36,7 @@ services:
     container_name: seerr
 
   duckdns:
-    image: ghcr.io/linuxserver/duckdns:33acdda4-ls74@sha256:780ac95fe11f54836d2287829b52759d83a210486d0a5df9fa2215a5005caf5f
+    image: ghcr.io/linuxserver/duckdns:33acdda4-ls74@sha256:f8c485090831ba6ddbf4124ea3525977d39a838ec856e5327ccc01d884c3241c
     container_name: duckdns
 
   wireguard:
