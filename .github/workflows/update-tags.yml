@@ -21,7 +21,7 @@ jobs:
         with:
           # We need to persist credentials to commit the changes back to the PR branch
           #persist-credentials: false
-          ref: ${{ github.head_ref }}
+          ref: ${{ github.ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Extract tags and update .env
