@@ -24,7 +24,7 @@ services:
     image: lscr.io/linuxserver/plex:1.43.0
 
   seerr:
-    image: ghcr.io/seerr-team/seerr:v3.0.1
+    image: ghcr.io/seerr-team/seerr:v3.1.0
 
   duckdns:
     image: lscr.io/linuxserver/duckdns:33acdda4-ls74
