@@ -37,3 +37,9 @@ services:
 
   cleanuparr:
     image: ghcr.io/cleanuparr/cleanuparr:2.9.3
+
+  finance-tracker-backend:
+    image: ghcr.io/w0rmr1d3r/finance-tracker-backend:2.0.0
+
+  finance-tracker-frontend:
+    image: ghcr.io/w0rmr1d3r/finance-tracker-frontend:2.0.0
