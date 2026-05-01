@@ -12,7 +12,7 @@ services:
     image: ghcr.io/flaresolverr/flaresolverr:v3.4.6
 
   prowlarr:
-    image: lscr.io/linuxserver/prowlarr:2.3.0
+    image: lscr.io/linuxserver/prowlarr:2.3.5
 
   bazarr:
     image: lscr.io/linuxserver/bazarr:1.5.6
