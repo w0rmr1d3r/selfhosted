@@ -36,7 +36,7 @@ services:
     image: lscr.io/linuxserver/jellyfin:10.11.7
 
   cleanuparr:
-    image: ghcr.io/cleanuparr/cleanuparr:2.9.3
+    image: ghcr.io/cleanuparr/cleanuparr:2.9.11
 
   finance-tracker-backend:
     image: ghcr.io/w0rmr1d3r/finance-tracker-backend:2.0.0
