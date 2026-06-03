@@ -9,7 +9,7 @@ services:
     image: lscr.io/linuxserver/qbittorrent:5.2.1
 
   flaresolverr:
-    image: ghcr.io/flaresolverr/flaresolverr:v3.4.6
+    image: ghcr.io/flaresolverr/flaresolverr:v3.5.0
 
   prowlarr:
     image: lscr.io/linuxserver/prowlarr:2.3.5
