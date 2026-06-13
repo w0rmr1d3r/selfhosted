@@ -33,7 +33,7 @@ services:
     image: lscr.io/linuxserver/heimdall:2.7.6
 
   jellyfin:
-    image: lscr.io/linuxserver/jellyfin:10.11.10
+    image: lscr.io/linuxserver/jellyfin:10.11.11
 
   cleanuparr:
     image: ghcr.io/cleanuparr/cleanuparr:2.9.13
