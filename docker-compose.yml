@@ -39,11 +39,9 @@ services:
   # https://github.com/Cleanuparr/Cleanuparr/releases
     image: ghcr.io/cleanuparr/cleanuparr:2.9.14
 
-  finance-tracker-backend:
-    image: ghcr.io/w0rmr1d3r/finance-tracker-backend:2.2.2
-
-  finance-tracker-frontend:
-    image: ghcr.io/w0rmr1d3r/finance-tracker-frontend:2.2.2
+  finance-tracker:
+  # https://github.com/w0rmr1d3r/finance-tracker/releases
+    image: ghcr.io/w0rmr1d3r/finance-tracker:3.0.0
 
   immich-server:
     image: ghcr.io/immich-app/immich-server:v2.7.5
