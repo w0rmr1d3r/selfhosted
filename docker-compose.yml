@@ -36,6 +36,7 @@ services:
     image: lscr.io/linuxserver/jellyfin:10.11.11
 
   cleanuparr:
+  # https://github.com/Cleanuparr/Cleanuparr/releases
     image: ghcr.io/cleanuparr/cleanuparr:2.9.14
 
   finance-tracker-backend:
