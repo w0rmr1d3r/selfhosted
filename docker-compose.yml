@@ -1,12 +1,12 @@
 services:
   sonarr:
-    image: lscr.io/linuxserver/sonarr:4.0.17
+    image: lscr.io/linuxserver/sonarr:4.0.19
 
   radarr:
-    image: lscr.io/linuxserver/radarr:6.2.1
+    image: lscr.io/linuxserver/radarr:6.3.0
 
   qbittorrent:
-    image: lscr.io/linuxserver/qbittorrent:5.2.1
+    image: lscr.io/linuxserver/qbittorrent:5.2.3
 
   flaresolverr:
     image: ghcr.io/flaresolverr/flaresolverr:v3.5.0
@@ -21,7 +21,7 @@ services:
     image: lscr.io/linuxserver/plex:1.43.2
 
   seerr:
-    image: ghcr.io/seerr-team/seerr:v3.3.0
+    image: ghcr.io/seerr-team/seerr:v3.4.1
 
   duckdns:
     image: lscr.io/linuxserver/duckdns:33acdda4-ls74
@@ -30,22 +30,21 @@ services:
     image: lscr.io/linuxserver/wireguard:1.0.20250521
 
   heimdall:
-    image: lscr.io/linuxserver/heimdall:2.7.6
+    image: lscr.io/linuxserver/heimdall:2.8.1
 
   jellyfin:
     image: lscr.io/linuxserver/jellyfin:10.11.11
 
   cleanuparr:
-    image: ghcr.io/cleanuparr/cleanuparr:2.9.13
+  # https://github.com/Cleanuparr/Cleanuparr/releases
+    image: ghcr.io/cleanuparr/cleanuparr:2.9.14
 
-  finance-tracker-backend:
-    image: ghcr.io/w0rmr1d3r/finance-tracker-backend:2.2.2
-
-  finance-tracker-frontend:
-    image: ghcr.io/w0rmr1d3r/finance-tracker-frontend:2.2.2
+  finance-tracker:
+  # https://github.com/w0rmr1d3r/finance-tracker/releases
+    image: ghcr.io/w0rmr1d3r/finance-tracker:3.0.1
 
   immich-server:
-    image: ghcr.io/immich-app/immich-server:v2.7.5
+    image: ghcr.io/immich-app/immich-server:v3.1.0
 
   immich-machine-learning:
     image: ghcr.io/immich-app/immich-machine-learning:v2.7.5
@@ -55,3 +54,6 @@ services:
 
   immich-postgres:
     image: ghcr.io/immich-app/postgres:14-vectorchord0.4.3-pgvectors0.2.0@sha256:bcf63357191b76a916ae5eb93464d65c07511da41e3bf7a8416db519b40b1c23
+
+  uptime-kuma:
+    image: louislam/uptime-kuma:2.4.0
