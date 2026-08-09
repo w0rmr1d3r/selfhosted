@@ -44,7 +44,7 @@ services:
     image: ghcr.io/w0rmr1d3r/finance-tracker:3.0.1
 
   immich-server:
-    image: ghcr.io/immich-app/immich-server:v2.7.5
+    image: ghcr.io/immich-app/immich-server:v3.1.0
 
   immich-machine-learning:
     image: ghcr.io/immich-app/immich-machine-learning:v2.7.5
