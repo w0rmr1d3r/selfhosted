@@ -37,7 +37,7 @@ services:
 
   cleanuparr:
   # https://github.com/Cleanuparr/Cleanuparr/releases
-    image: ghcr.io/cleanuparr/cleanuparr:2.9.14
+    image: ghcr.io/cleanuparr/cleanuparr:2.10.5
 
   finance-tracker:
   # https://github.com/w0rmr1d3r/finance-tracker/releases
