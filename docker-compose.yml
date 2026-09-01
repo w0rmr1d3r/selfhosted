@@ -27,7 +27,7 @@ services:
     image: lscr.io/linuxserver/duckdns:33acdda4-ls74
 
   wireguard:
-    image: lscr.io/linuxserver/wireguard:1.0.20250521
+    image: lscr.io/linuxserver/wireguard:1.0.20260223
 
   heimdall:
     image: lscr.io/linuxserver/heimdall:2.8.1
