@@ -41,7 +41,7 @@ services:
 
   finance-tracker:
   # https://github.com/w0rmr1d3r/finance-tracker/releases
-    image: ghcr.io/w0rmr1d3r/finance-tracker:3.0.1
+    image: ghcr.io/w0rmr1d3r/finance-tracker:3.0.2
 
   immich-server:
     image: ghcr.io/immich-app/immich-server:v3.1.0
