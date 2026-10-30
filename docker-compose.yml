@@ -6,7 +6,7 @@ services:
     image: lscr.io/linuxserver/radarr:6.4.4
 
   qbittorrent:
-    image: lscr.io/linuxserver/qbittorrent:5.2.4
+    image: lscr.io/linuxserver/qbittorrent:5.3.0
 
   flaresolverr:
     image: ghcr.io/flaresolverr/flaresolverr:v3.5.2
