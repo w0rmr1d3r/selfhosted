@@ -18,7 +18,7 @@ services:
     image: lscr.io/linuxserver/bazarr:1.6.2
 
   plex:
-    image: lscr.io/linuxserver/plex:1.43.4
+    image: lscr.io/linuxserver/plex:1.43.5
 
   seerr:
     image: ghcr.io/seerr-team/seerr:v3.5.1
@@ -37,11 +37,11 @@ services:
 
   cleanuparr:
   # https://github.com/Cleanuparr/Cleanuparr/releases
-    image: ghcr.io/cleanuparr/cleanuparr:2.10.8
+    image: ghcr.io/cleanuparr/cleanuparr:2.10.12
 
   finance-tracker:
   # https://github.com/w0rmr1d3r/finance-tracker/releases
-    image: ghcr.io/w0rmr1d3r/finance-tracker:3.0.2
+    image: ghcr.io/w0rmr1d3r/finance-tracker:3.1.0
 
   immich-server:
     image: ghcr.io/immich-app/immich-server:v3.1.0
