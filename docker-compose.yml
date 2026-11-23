@@ -47,7 +47,7 @@ services:
     image: ghcr.io/immich-app/immich-server:v3.3.5
 
   immich-machine-learning:
-    image: ghcr.io/immich-app/immich-machine-learning:v3.3.5
+    image: ghcr.io/immich-app/immich-machine-learning:v3.4.2
 
   immich-redis:
     image: docker.io/valkey/valkey:9@sha256:3add1a336a920ea54770a001ab6feb3da5fceea96a40373a3a2cd469b815f0b7
